@@ -27,8 +27,8 @@ export class DataService {
 
     }
     return this.hc.get("https://ott-details.p.rapidapi.com/getnew",{"headers":
-    {"x-rapidapi-key": "3387db7dbfmsh17c7a9c62b28964p1a0d01jsn88d4b5e0d0ce",
-    "x-rapidapi-host": "ott-details.p.rapidapi.com",},params:params});
+    {'x-rapidapi-key': '0b5feda7d8mshe9e36948bbacf50p10bd2ajsn21e97089ee5c',
+    'x-rapidapi-host': 'ott-details.p.rapidapi.com',},params:params});
     
   }
 
@@ -47,8 +47,8 @@ export class DataService {
 
     }
     return this.hc.get("https://ott-details.p.rapidapi.com/search",{"headers":{
-      "x-rapidapi-key": "3387db7dbfmsh17c7a9c62b28964p1a0d01jsn88d4b5e0d0ce",
-      "x-rapidapi-host": "ott-details.p.rapidapi.com",},params:params});
+      'x-rapidapi-key': '0b5feda7d8mshe9e36948bbacf50p10bd2ajsn21e97089ee5c',
+    'x-rapidapi-host': 'ott-details.p.rapidapi.com',},params:params});
   }
 
 
@@ -66,8 +66,9 @@ export class DataService {
 
     }
     return this.hc.get("https://ott-details.p.rapidapi.com/getPlatforms",{"headers":{
-      "x-rapidapi-key": "3387db7dbfmsh17c7a9c62b28964p1a0d01jsn88d4b5e0d0ce",
-	"x-rapidapi-host": "ott-details.p.rapidapi.com"
+      'x-rapidapi-key': '0b5feda7d8mshe9e36948bbacf50p10bd2ajsn21e97089ee5c',
+    'x-rapidapi-host': 'ott-details.p.rapidapi.com'
+
     ,},params:params});
   }
 
